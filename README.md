@@ -23,7 +23,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://imgur.com/a/vik5EH9.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='Kapture 2023-08-27 at 22.27.54.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap  
@@ -34,7 +34,10 @@ GIF created with Kap
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+This project was a fun way to review and refresh old material, and it was useful to be prepared for learning 
+about React in the upcoming course. There were some times that I had a bit of trouble or ran into a couple of bugs,
+but I researched each problem and adapted to the situation to complete the project. I also had to refamiliarize myself
+with the syntax of the languages.
 
 ## License
 
