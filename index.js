@@ -192,3 +192,29 @@ firstGameContainer.appendChild(topGameName);
 const runnerUpName = document.createElement("h3");
 runnerUpName.innerHTML = runnerUp.name;
 secondGameContainer.appendChild(runnerUpName);
+
+// create a new element to search for game by name, then append it to the button container
+const searchElement = document.createElement("input");
+searchElement.setAttribute("type", "text");
+searchElement.setAttribute("placeholder", "Search for a game");
+searchElement.setAttribute("id", "search-input");
+searchElement.classList.add("search-input");
+const buttonContainer = document.getElementById("button-container");
+buttonContainer.appendChild(searchElement);
+
+function filterByName() {
+    deleteChildElements(gamesContainer);
+    let searchValue = document.getElementById("search-input").value;
+    let filteredGames = GAMES_JSON.filter( (game) => {
+        return game.name.toLowerCase().includes(searchValue.toLowerCase());
+    })
+    deleteChildElements(gamesContainer);
+    addGamesToPage(filteredGames);
+}
+
+const searchButton = document.createElement("button");
+searchButton.setAttribute("id", "search-button");
+searchButton.classList.add("search-button");
+searchButton.innerHTML = "Search";
+buttonContainer.appendChild(searchButton);
+searchButton.addEventListener("click", filterByName);
