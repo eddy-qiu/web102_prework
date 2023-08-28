@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [ ] A search bar and button created to allow the user to search for games by name
 
 ## Video Walkthrough
 
